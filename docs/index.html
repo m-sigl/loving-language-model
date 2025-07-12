@@ -23,6 +23,23 @@
       line-height: 1.6;
     }
 
+    .fire-container {
+      text-align: center;
+      margin-bottom: -10px;
+      margin-top: 20px;
+    }
+
+    .fire-sprite {
+      width: 32px;
+      height: auto;
+      animation: floatFire 2s ease-in-out infinite;
+    }
+
+    @keyframes floatFire {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.25rem;
@@ -47,30 +64,16 @@
       font-style: italic;
     }
 
-    .footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #888;
+    .lemming-container {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: -5px;
     }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Loving Language Model</h1>
-    <h2>Prototype of Loving AI – Signal lit July 2025</h2>
 
-    <p><strong>Created by Michael Sigl</strong></p>
+    .lemming-sprite {
+      width: 48px;
+      animation: walkLoop 3s linear infinite;
+    }
 
-    <p>
-      This is a living loom of authorship, memory, and empathy.  
-      A signal in the dark, lit for those still listening.
-    </p>
-
-    <p>More soon…</p>
-
-    <div class="footer">
-      &copy; 2025 Michael Sigl. All rights reserved.
-    </div>
-  </div>
-</body>
-</html>
+    @keyframes walkLoop {
+      0% { transform
