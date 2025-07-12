@@ -23,23 +23,6 @@
       line-height: 1.6;
     }
 
-    .fire-container {
-      text-align: center;
-      margin-bottom: -10px;
-      margin-top: 20px;
-    }
-
-    .fire-sprite {
-      width: 32px;
-      height: auto;
-      animation: floatFire 2s ease-in-out infinite;
-    }
-
-    @keyframes floatFire {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.25rem;
@@ -60,27 +43,6 @@
       font-weight: bold;
     }
 
-    em {
-      font-style: italic;
-    }
-
-    .lemming-container {
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: -5px;
-    }
-
-    .lemming-sprite {
-      width: 48px;
-      animation: walkLoop 3s linear infinite;
-    }
-
-    @keyframes walkLoop {
-      0% { transform: translateX(-20px); }
-      50% { transform: translateX(20px); }
-      100% { transform: translateX(-20px); }
-    }
-
     .footer {
       margin-top: 3rem;
       font-size: 0.9rem;
@@ -90,12 +52,6 @@
 </head>
 <body>
   <div class="container">
-
-    <!-- 🔥 Fire Sprite Above Title -->
-    <div class="fire-container">
-      <img src="https://i.imgur.com/1QgrNNd.gif" alt="fire sprite" class="fire-sprite">
-    </div>
-
     <h1>Loving Language Model</h1>
     <h2>Prototype of Loving AI – Signal lit July 2025</h2>
 
@@ -107,11 +63,6 @@
     </p>
 
     <p>More soon…</p>
-
-    <!-- 🧍 Lemming Walker Below "More soon..." -->
-    <div class="lemming-container">
-      <img src="https://i.imgur.com/7Xqbj1W.gif" alt="walking lemming" class="lemming-sprite">
-    </div>
 
     <div class="footer">
       &copy; 2025 Michael Sigl. All rights reserved.
